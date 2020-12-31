@@ -1,0 +1,23 @@
+.form-control {
+    width: 80%;
+    display: inline;
+}
+
+.error {
+    color: red;
+}
+
+.container.create {
+    max-width: 600px;
+}
+
+.btn.btn-primary {
+    margin-left:10px
+}
+
+
+@media (max-width: 720px) {
+    .btn.btn-primary {
+        margin: -3px 0 0 0
+    }
+}

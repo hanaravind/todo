@@ -1,0 +1,17 @@
+.navbar-nav li {
+    cursor: pointer;
+    outline: none;
+}
+
+.nav-item.right {
+    position: absolute;
+    top: 9px;
+    right: 30px;
+}
+
+
+@media (max-width: 720px) {
+    .nav-item.right {
+        position: static;
+    }
+}

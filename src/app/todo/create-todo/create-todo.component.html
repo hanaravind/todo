@@ -1,0 +1,8 @@
+<div class="container create">
+    <h1>Create Todo</h1>
+    <div class="form-group">
+        <input #todoInput type="text" class="form-control" (keyup.enter)="addTodo($event.target.value)" placeholder="Add todo">
+        <button type="button" class="btn btn-primary" (click)="addTodo(todoInput.value)">Add</button>
+        <p class="error">{{errorMsg}}</p>
+      </div>
+</div>
