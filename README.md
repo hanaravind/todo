@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
+# Github url
+
+- This project can be cloned on github by using the command  `git clone https://github.com/hanaravind/todo.git`
+
+- After cloning the url Do `npm install` on your machine . Now you can start your development server by typing command `ng serve`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
