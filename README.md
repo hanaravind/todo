@@ -10,6 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 3. Now you can start your development server by typing command `ng serve` 
 
+4. on Login componenet you can give any username , password for going inside the dashboard.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
