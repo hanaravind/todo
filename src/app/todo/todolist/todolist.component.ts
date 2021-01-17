@@ -18,6 +18,7 @@ export class TodolistComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.mount = this.store.select('todo').subscribe(data => {
       this.todoList = data
+      console.log(this.todoList)
     }) 
   }
 
